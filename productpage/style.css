@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+header{
+  min-height: 100vh;
+}
+nav{
+  background-color: #f01;
+}
+.nav-ct{
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
+}
+.nav-links{
+  display: none;
+}
+.navlinks ul,li,a{
+  display: flex;
+  flex-direction:column;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding-top: .75rem;
+}
+.navlinks.active{
+  display: flex;
+}
+#menu{
+  position:abosulte;
+  top: 0;
+  left: 0;
+}
+
